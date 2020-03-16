@@ -1,3 +1,2 @@
-class Student 
-class Car < Vehicle
+class Student < User
 end
