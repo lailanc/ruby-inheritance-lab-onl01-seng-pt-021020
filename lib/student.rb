@@ -1,12 +1,15 @@
-class Student
+class Student  < User 
   
-  def hello 
-    puts "Hey there! I'm so excited to learn stuff."
+  def initialize
+    @knowledge = []
   end 
   
-  def raise_hand 
-    puts "Pick me!"
+  def learn(string) 
+    @knowledge << string
   end 
   
-  
-end 
+  def knowledge
+    @knowledge
+  end 
+
+end
